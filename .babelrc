@@ -1,0 +1,10 @@
+{
+  // https://webpack.js.org/guides/hmr-react/#babel-config
+  "presets": [
+    ["env", {
+      "modules": false
+    }]
+    // webpack understands the native import syntax, and uses it for tree shaking
+
+  ]
+}
