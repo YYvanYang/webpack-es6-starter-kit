@@ -1,3 +1,2 @@
-export let q = a => "Are you ok?"
-
-console.log(q())
+require('./css/style.css')
+require('./css/style.scss')
